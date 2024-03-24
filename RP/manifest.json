@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Made by Sea of Orange",
+        "name": "Kaleidos RP",
+        "uuid":"1e51a7e5-922f-4262-8eed-f14e97a9d3a3",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 61]
+    },
+    "modules": [
+        {
+            "description": "Kaleidos Add-on's resource pack",
+            "type": "resources",
+            "uuid": "99ba60ec-0ad1-4c7d-81b6-620b4363e3c9",
+            "version": [1, 0, 0]
+        }
+    ]
+}

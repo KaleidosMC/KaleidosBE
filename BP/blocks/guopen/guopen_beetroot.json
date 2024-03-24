@@ -1,0 +1,34 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "kaleidos:beetroos_guopen",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.guopen",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.guopen.beetroot.name",
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:geometry": "geometry.guopen1",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "gp6",
+                    "render_method": "blend",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            }
+        }
+    }
+}
+  

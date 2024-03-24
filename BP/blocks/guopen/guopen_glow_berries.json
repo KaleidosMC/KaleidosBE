@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "kaleidos:glow_berries_guopen",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.guopen",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.guopen.glow_berries.name",
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:geometry": "geometry.guopen1",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "gp2",
+                    "render_method": "blend",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:light_emission": 14
+        }
+    }
+}
+  
