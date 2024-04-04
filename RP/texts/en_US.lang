@@ -1,7 +1,9 @@
-tile.guopen.empty.name=Empty pot #
-tile.guopen.apple.name=Apple pot #
-tile.guopen.glow_berries.name=Glow berries pot #
-tile.guopen.pear.name=Pear pot #
-tile.guopen.carrot.name=Carrot pot #
-tile.guopen.potato.name=Potato pot #
-tile.guopen.beetroot.name=Beetroot pot #
+tile.guopen.empty.name=Pot
+tile.guopen.apple.name=Apple pot
+tile.guopen.glow_berries.name=Glow berries pot
+tile.guopen.pear.name=Pear pot
+tile.guopen.carrot.name=Carrot pot
+tile.guopen.potato.name=Potato pot
+tile.guopen.beetroot.name=Beetroot pot
+tile.guo.empty.name=CookerPot
+tile.guo.water.name=CookerPot with water

@@ -2,10 +2,10 @@
     "format_version": "1.20.60",
     "minecraft:block": {
         "description": {
-            "identifier": "kaleidos:guo_empty",
+            "identifier": "kaleidos:empty_guopen_tilt",
             "menu_category": {
                 "category": "construction",
-                "group": "itemGroup.name.guo",
+                "group": "itemGroup.name.guopen",
                 "is_hidden_in_commands": false
             },
             "traits": {
@@ -16,31 +16,19 @@
             }
         },
         "components": {
-            "minecraft:display_name": "tile.guo.empty.name",
+            "minecraft:display_name": "tile.guopen.empty.name",
             "minecraft:collision_box": {
                 "origin": [-8, 0, -8],
-                "size": [16, 16, 16]
+                "size": [16, 8, 16]
             },
             "minecraft:selection_box": {
                 "origin": [-8, 0, -8],
-                "size": [16, 16, 16]
+                "size": [16, 8, 16]
             },
-            "minecraft:geometry": "geometry.guo0",
+            "minecraft:geometry": "geometry.guopen2",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "tang1",
-                    "render_method": "blend",
-                    "face_dimming": true,
-                    "ambient_occlusion": true
-                },
-                "group": {
-                    "texture": "tang1",
-                    "render_method": "blend",
-                    "face_dimming": true,
-                    "ambient_occlusion": true
-                },
-                "group2": {
-                    "texture": "tang3",
+                    "texture": "gp0",
                     "render_method": "blend",
                     "face_dimming": true,
                     "ambient_occlusion": true

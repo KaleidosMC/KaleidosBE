@@ -2,7 +2,7 @@
     "format_version": "1.20.60",
     "minecraft:block": {
         "description": {
-            "identifier": "kaleidos:guo_empty",
+            "identifier": "kaleidos:guo_water",
             "menu_category": {
                 "category": "construction",
                 "group": "itemGroup.name.guo",
@@ -16,7 +16,7 @@
             }
         },
         "components": {
-            "minecraft:display_name": "tile.guo.empty.name",
+            "minecraft:display_name": "tile.guo.water.name",
             "minecraft:collision_box": {
                 "origin": [-8, 0, -8],
                 "size": [16, 16, 16]
@@ -25,7 +25,7 @@
                 "origin": [-8, 0, -8],
                 "size": [16, 16, 16]
             },
-            "minecraft:geometry": "geometry.guo0",
+            "minecraft:geometry": "geometry.guo2",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "tang1",

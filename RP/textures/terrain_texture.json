@@ -24,6 +24,12 @@
       },
       "gp6": {
         "textures": "textures/blocks/gp6"
+      },
+      "tang1": {
+        "textures": "textures/blocks/tang1"
+      },
+      "tang3": {
+        "textures": "textures/blocks/tang3"
       }
     }
   }

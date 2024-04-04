@@ -1,7 +1,9 @@
-tile.guopen.empty.name=空盆子 #
-tile.guopen.apple.name=苹果盆子 #
-tile.guopen.glow_berries.name=荧光浆果盆子 #
-tile.guopen.pear.name=梨子盆子 #
-tile.guopen.carrot.name=胡萝卜盆子 #
-tile.guopen.potato.name=土豆盆子 #
-tile.guopen.beetroot.name=甜菜根盆子 #
+tile.guopen.empty.name=盆子
+tile.guopen.apple.name=苹果盆子
+tile.guopen.glow_berries.name=荧光浆果盆子
+tile.guopen.pear.name=梨子盆子
+tile.guopen.carrot.name=胡萝卜盆子
+tile.guopen.potato.name=土豆盆子
+tile.guopen.beetroot.name=甜菜根盆子
+tile.guo.empty.name=锅
+tile.guo.water.name=盛有水的锅

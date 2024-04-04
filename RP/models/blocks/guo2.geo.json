@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.guo0",
+				"identifier": "geometry.guo2",
 				"texture_width": 32,
 				"texture_height": 32,
 				"visible_bounds_width": 2,
@@ -16,15 +16,27 @@
 					"pivot": [8, 0, -8],
 					"cubes": [
 						{
+							"origin": [-5, 9, -5],
+							"size": [10, 5, 10],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [10, 5], "material_instance": "group"},
+								"east": {"uv": [0, 0], "uv_size": [10, 5], "material_instance": "group"},
+								"south": {"uv": [0, 0], "uv_size": [10, 5], "material_instance": "group"},
+								"west": {"uv": [0, 0], "uv_size": [10, 5], "material_instance": "group"},
+								"up": {"uv": [12, 28], "uv_size": [-10, -10], "material_instance": "group"},
+								"down": {"uv": [13, 12], "uv_size": [-10, -10], "material_instance": "group"}
+							}
+						},
+						{
 							"origin": [5, 9, -7],
 							"size": [2, 7, 14],
 							"uv": {
 								"north": {"uv": [26, 2], "uv_size": [2, 7], "material_instance": "group"},
-								"east": {"uv": [2, 0], "uv_size": [14, 9], "material_instance": "group"},
+								"east": {"uv": [1, 0], "uv_size": [14, 9], "material_instance": "group"},
 								"south": {"uv": [2, 2], "uv_size": [2, 7], "material_instance": "group"},
-								"west": {"uv": [2, 1], "uv_size": [14, 7], "material_instance": "group"},
-								"up": {"uv": [31, 14], "uv_size": [-2, -12], "material_instance": "group"},
-								"down": {"uv": [2, 16], "uv_size": [2, -14], "material_instance": "group"}
+								"west": {"uv": [1, 1], "uv_size": [14, 7], "material_instance": "group"},
+								"up": {"uv": [28, 2], "uv_size": [2, 12], "material_instance": "group"},
+								"down": {"uv": [30, 1], "uv_size": [-2, 14], "material_instance": "group"}
 							}
 						},
 						{
@@ -32,11 +44,11 @@
 							"size": [2, 7, 14],
 							"uv": {
 								"north": {"uv": [2, 2], "uv_size": [2, 7], "material_instance": "group"},
-								"east": {"uv": [2, 1], "uv_size": [14, 7], "material_instance": "group"},
-								"south": {"uv": [26, 2], "uv_size": [2, 7], "material_instance": "group"},
-								"west": {"uv": [2, 0], "uv_size": [14, 9], "material_instance": "group"},
-								"up": {"uv": [29, 15], "uv_size": [2, -14], "material_instance": "group"},
-								"down": {"uv": [4, 16], "uv_size": [-2, -14], "material_instance": "group"}
+								"east": {"uv": [1, 1], "uv_size": [14, 7], "material_instance": "group"},
+								"south": {"uv": [12, 2], "uv_size": [2, 7], "material_instance": "group"},
+								"west": {"uv": [1, 0], "uv_size": [14, 9], "material_instance": "group"},
+								"up": {"uv": [30, 15], "uv_size": [-2, -14], "material_instance": "group"},
+								"down": {"uv": [30, 15], "uv_size": [-2, -14], "material_instance": "group"}
 							}
 						},
 						{
@@ -44,7 +56,7 @@
 							"size": [10, 7, 2],
 							"uv": {
 								"north": {"uv": [3, 1], "uv_size": [10, 7], "material_instance": "group"},
-								"south": {"uv": [3, 0], "uv_size": [10, 9], "material_instance": "group"},
+								"south": {"uv": [4, 0], "uv_size": [10, 9], "material_instance": "group"},
 								"up": {"uv": [13, 1], "uv_size": [-10, 2], "material_instance": "group"},
 								"down": {"uv": [13, 4], "uv_size": [-10, -2], "material_instance": "group"}
 							}
@@ -57,14 +69,6 @@
 								"south": {"uv": [3, 1], "uv_size": [10, 7], "material_instance": "group"},
 								"up": {"uv": [13, 3], "uv_size": [-10, -2], "material_instance": "group"},
 								"down": {"uv": [13, 4], "uv_size": [-10, -2], "material_instance": "group"}
-							}
-						},
-						{
-							"origin": [-5, 9, -5],
-							"size": [10, 1, 10],
-							"uv": {
-								"up": {"uv": [13, 12], "uv_size": [-10, -10], "material_instance": "group"},
-								"down": {"uv": [16, 10], "uv_size": [-7, -7], "material_instance": "group"}
 							}
 						},
 						{
@@ -114,24 +118,24 @@
 					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [-8, 3, 3],
-							"size": [16, 4, 4],
-							"uv": {
-								"north": {"uv": [16, 0], "uv_size": [-16, 4], "material_instance": "group2"},
-								"east": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
-								"south": {"uv": [0, 0], "uv_size": [16, 4], "material_instance": "group2"},
-								"west": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
-								"up": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"},
-								"down": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"}
-							}
-						},
-						{
 							"origin": [-8, 3, -7],
 							"size": [16, 4, 4],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [16, 4], "material_instance": "group2"},
 								"east": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
 								"south": {"uv": [16, 0], "uv_size": [-16, 4], "material_instance": "group2"},
+								"west": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
+								"up": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"},
+								"down": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"}
+							}
+						},
+						{
+							"origin": [-8, 3, 3],
+							"size": [16, 4, 4],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [-16, 4], "material_instance": "group2"},
+								"east": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
+								"south": {"uv": [0, 0], "uv_size": [16, 4], "material_instance": "group2"},
 								"west": {"uv": [0, 4], "uv_size": [4, 4], "material_instance": "group2"},
 								"up": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"},
 								"down": {"uv": [16, 4], "uv_size": [-16, -4], "material_instance": "group2"}
@@ -169,7 +173,7 @@
 								"east": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "group2"},
 								"south": {"uv": [16, 15], "uv_size": [6, 1], "material_instance": "group2"},
 								"west": {"uv": [0, 0], "uv_size": [16, 1], "material_instance": "group2"},
-								"up": {"uv": [22, 16], "uv_size": [-6, -16], "material_instance": "group2"},
+								"up": {"uv": [6, 16], "uv_size": [-6, -16], "material_instance": "group2"},
 								"down": {"uv": [22, 16], "uv_size": [-6, -16], "material_instance": "group2"}
 							}
 						}
