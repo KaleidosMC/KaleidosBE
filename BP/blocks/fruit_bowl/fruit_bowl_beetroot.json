@@ -1,0 +1,42 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "kaleidos:fruit_bowl_beetroot",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.guopen",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:display_name": "tile.fruit_bowl.beetroot.name",
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 16]
+            },
+            "minecraft:geometry": "geometry.fruit_bowl_full",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "fruit_bowl_beetroot",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                },
+                "shell": {
+                    "texture": "fruit_bowl_empty",
+                    "render_method": "opaque"
+                },
+                "filling": {
+                    "texture": "fruit_bowl_beetroot",
+                    "render_method": "alpha_test"
+                }
+            }
+        }
+    }
+}
+  

@@ -1,11 +1,11 @@
 {
-    "format_version": 1,
+    "format_version": 2,
     "header": {
         "description": "Made by Sea of Orange",
         "name": "Kaleidos BP",
         "uuid": "4e314ba2-aa3c-4c4c-a64f-1ae1d9db406f",
         "version": [1, 0, 0],
-        "min_engine_version": [1, 20, 61]
+        "min_engine_version": [1, 21, 40]
     },
     "modules": [
         {
@@ -15,7 +15,7 @@
             "version": [1, 0, 0]
         }
     ],
-    "dependencies": [
+    "dependencies" : [
         {
             "uuid": "1e51a7e5-922f-4262-8eed-f14e97a9d3a3",
             "version": [1, 0, 0]
